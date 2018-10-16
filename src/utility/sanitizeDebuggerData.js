@@ -1,5 +1,5 @@
 import { formatBytes } from "./utilityFunctions";
-import Duration from "duration";
+//import Duration from "duration";
 /*
     To Rebuild Data for Network Tab For Showing In Debugger Component
 */
@@ -11,15 +11,15 @@ export const sanitizeNetworkData = network => {
   network.data.data.map((item, index) => {
     //Sanitized Object for Each Row
     let time = item.time;
-    let duration = new Duration(new Date(time));
-    duration = time > 60 ? (time / 60).toFixed(2) + " mins" : time + " seconds";
+    //let duration = new Duration(new Date(time));
+    //duration = time > 60 ? (time / 60).toFixed(2) + " mins" : time + " seconds";
     let obj = {
       name: item.request.url,
       status: item.response.status,
       method: item.request.method,
       type: item.response.content.mimeType,
       size: formatBytes(item.response.content.size),
-      duration: duration
+      //duration: duration
     };
     result.data.push(obj);
   });
