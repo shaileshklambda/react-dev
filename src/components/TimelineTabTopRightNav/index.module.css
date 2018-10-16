@@ -1,0 +1,42 @@
+@import "../../theme/colors.css";
+@import "../../theme/typography.css";
+@import "../../theme/fonts.css";
+
+.topRightNav {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 15px;
+  padding: 5px 0 0 0;
+}
+
+.topRightNav li a {
+  background-color: transparent !important;
+  padding: 0px 8px;
+}
+
+.topRightNav .iconGroup {
+  margin-left: 4em;
+}
+
+.topRightNav .iconWrapper img {
+  height: 20px;
+  width: 25px;
+}
+.topRightNav li a .dotIcon {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.topRightNav li a .status {
+  color: $colorTextGrey1;
+}
+.topRightNav li a .dotIcon.active {
+  background: $colorActive;
+}
+.topRightNav li a .dotIcon.inProgress {
+  background: $colorInProgress;
+}

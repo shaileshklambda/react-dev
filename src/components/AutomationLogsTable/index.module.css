@@ -1,0 +1,52 @@
+@import "../../theme/colors.css";
+@import "../../theme/typography.css";
+@import "../../theme/fonts.css";
+
+.Automationlogstable {
+  display: block;
+}
+.tableMainContainer {
+  border: 0 !important;
+}
+.tableMainContainer .headerCell .text {
+  color: $colorDarkGrey;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tableMainContainer .headerCell .icon {
+  margin-left: 10px;
+}
+.tableMainContainer .headerCell .icon > img {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: -1px;
+}
+
+/* Table CSS */
+.tableMainContainer div[role="grid"] > div:nth-child(1) {
+  box-shadow: none;
+  border-bottom: 1px solid $colorGrey2;
+}
+
+.tableMainContainer div[role="columnheader"] {
+  border-right: 0px !important;
+  padding: 15px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: left;
+}
+.tableMainContainer div[role="gridcell"] {
+  border-right: 0px !important;
+  font-size: 12px;
+  padding: 15px !important;
+  text-align: left;
+}
+.tableMainContainer div[role="rowgroup"] {
+  border-bottom: solid 1px $colorGrey2;
+}
+
+.tableMainContainer div[role="row"] {
+  display: flex;
+  align-items: center;
+}

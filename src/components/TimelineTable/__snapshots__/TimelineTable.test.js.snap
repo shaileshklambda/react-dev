@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timelinetable: default 1`] = `
+<div>
+  No Data to display
+</div>
+`;

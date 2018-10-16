@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Videocomponent: default 1`] = `
+<div>
+  <div
+    data-vjs-player={true}
+  >
+    <video
+      className="video-js vjs-big-play-centered"
+      poster=""
+    />
+  </div>
+</div>
+`;

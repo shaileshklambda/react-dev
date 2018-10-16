@@ -1,0 +1,51 @@
+@import "../../theme/colors.css";
+@import "../../theme/typography.css";
+@import "../../theme/fonts.css";
+
+.menuHeader {
+  color: $colorWhite;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: $colorAqua;
+  min-width: 180px;
+  padding: 15px 18px;
+}
+.menuHeader .menuItemText {
+  margin-left: 11px;
+  position: relative;
+  top: 1px;
+}
+.menuHeaderIcon {
+  /* position: relative; */
+  /* top: 1px; */
+}
+.menuItem {
+  padding: 15px;
+  color: $colorGrey;
+  font-weight: 500;
+  border-bottom: 1px solid $colorGrey;
+  min-width: 180px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.menuItem.selected,
+.menuItem:hover {
+  background: $colorDarkerBlue;
+  color: $colorWhite;
+  box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menuItem .menuItemText {
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.menuItem .menuItemIcons > img {
+  width: 20px;
+  height: 20px;
+}
+.menuItem.selected .menuItemIcons,
+.menuItem:hover .menuItemIcons {
+  color: $colorAqua;
+}

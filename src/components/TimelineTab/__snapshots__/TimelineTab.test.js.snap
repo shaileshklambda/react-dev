@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timelinetab: default 1`] = `
+<div
+  className="text-center"
+>
+  No Data to render
+</div>
+`;

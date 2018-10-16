@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timelinetabtoprightnav: default 1`] = `
+<ul
+  className="topRightNav nav nav-pills pull-right"
+  role={null}
+>
+  <li
+    className="active"
+    role="presentation"
+  >
+    <a
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      title="Test"
+    >
+      <span
+        className="dotIcon active"
+      />
+      <span
+        className="status fontLato"
+      >
+        5/5
+      </span>
+    </a>
+  </li>
+  <li
+    className=""
+    role="presentation"
+  >
+    <a
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      title="Test"
+    >
+      <span
+        className="dotIcon inProgress"
+      />
+      <span
+        className="status fontLato"
+      >
+        2/5
+      </span>
+    </a>
+  </li>
+  <li
+    className="iconGroup"
+    role="presentation"
+  >
+    <a
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      title="Access Key"
+    >
+      <div>
+        <img
+          className=""
+          height={20}
+          onClick={[Function]}
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "access-key.svg",
+            }
+          }
+          width={25}
+        />
+      </div>
+    </a>
+  </li>
+  <li
+    className=""
+    role="presentation"
+  >
+    <a
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      title="Help"
+    >
+      <div>
+        <img
+          className=""
+          height={20}
+          onClick={[Function]}
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "help-center.svg",
+            }
+          }
+          width={25}
+        />
+      </div>
+    </a>
+  </li>
+</ul>
+`;

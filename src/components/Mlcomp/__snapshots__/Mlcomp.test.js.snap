@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mlcomp: default 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <div>
+        <img
+          className=""
+          height={20}
+          onClick={[Function]}
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "help-center.svg",
+            }
+          }
+          width={25}
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div>
+        <img
+          className=""
+          height={20}
+          onClick={[Function]}
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "access-key.svg",
+            }
+          }
+          width={25}
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="default"
+      />
+    </div>
+    <div
+      className="col-md-8"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-3"
+    >
+      <div>
+        <div
+          data-vjs-player={true}
+        >
+          <video
+            className="video-js vjs-big-play-centered"
+            poster=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="colAdjust col-md-12 col-xs-12"
+      >
+        <div
+          className="Debuggertab"
+        >
+          <div
+            className="bug_list_tab activeParent"
+            id="uncontrolled-tab-example"
+          >
+            <ul
+              className="nav nav-tabs"
+              role="tablist"
+            />
+            <div
+              className="tab-content"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="col-md-12 col-xs-12"
+      >
+        <div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-7 col-xs-7"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="headingParent col-md-12 col-xs-12"
+                >
+                  <div
+                    className="col-md-12 col-xs-12"
+                  >
+                    <span
+                      className="testHeading"
+                    >
+                      Falcon/Realtime Browser
+                    </span>
+                    <span
+                      className="highlightedText"
+                    >
+                       
+                       FS-006S
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12 col-xs-12"
+                >
+                  <div
+                    className="col-md-6 col-xs-6"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          Tester: 
+                        </strong>
+                        Gragnama
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    className="col-md-6 col-xs-6"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          CI Tool: 
+                        </strong>
+                         
+                        Jenkins
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 col-xs-12"
+                >
+                  <div
+                    className="col-md-6 col-xs-6"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          Local Tunnel: 
+                        </strong>
+                         
+                        Null
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    className="col-md-6 col-xs-6"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          No. of Issues: 
+                        </strong>
+                         
+                        20
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 col-xs-12"
+                >
+                  <div
+                    className="col-md-6 col-xs-6"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          Start Time: 
+                        </strong>
+                         
+                        16:00
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    className="col-md-6 col-xs-6"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          End Time: 
+                        </strong>
+                         
+                        20:00
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 col-xs-12"
+                >
+                  <div
+                    className="col-md-12 col-xs-12"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          Base Url: 
+                        </strong>
+                         
+                        https://www.lambdatest.com
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 col-xs-12"
+                >
+                  <div
+                    className="col-md-12 col-xs-12"
+                  >
+                    <span
+                      className="innerContent"
+                    >
+                      <p>
+                        <strong>
+                          Environment: 
+                        </strong>
+                         
+                        <img
+                          className=""
+                          src="icons/windows.png"
+                        />
+                         
+                        10
+                         
+                        |
+                         
+                        <img
+                          className=""
+                          src="icons/google_chrome.png"
+                        />
+                         
+                        69.0
+                         
+                        |
+                         
+                        <img
+                          className=""
+                          src="icons/computer.png"
+                        />
+                         
+                        1900 x 1080
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4 col-xs-4"
+            >
+              <div>
+                <div
+                  data-vjs-player={true}
+                >
+                  <video
+                    className="video-js vjs-big-play-centered"
+                    poster=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4"
+          >
+            <div
+              className="rectangle"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <span
+                    className="title"
+                  >
+                    Total Bugs Logged
+                  </span>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-2"
+                >
+                  <span
+                    className="count"
+                  >
+                    29
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

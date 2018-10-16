@@ -1,0 +1,22 @@
+@import "../../theme/colors.css";
+.Debuggertable {
+  display: block;
+}
+.tableStyleCust {
+  font-size: 12px !important;
+}
+.tableMainContainer .headerCell {
+  padding: 10px 0;
+}
+.tableMainContainer .headerCell {
+  color: $colorDarkGrey;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.tableMainContainer .headerCell .icon {
+  margin-left: 10px;
+}
+.headerCell {
+  background: #000 !important;
+}

@@ -1,0 +1,181 @@
+@import "../../theme/colors.css";
+@import "../../theme/typography.css";
+@import "../../theme/fonts.css";
+
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.formWrapper .filterBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 15px;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  flex-wrap: wrap;
+}
+
+.formWrapper .filterBar .dropdownSelect select {
+  display: inline-block;
+  border: 1px solid $colorSelectButtonBorder;
+  padding: 0px 40px 0 15px;
+  margin: 0 5px;
+  outline: none;
+  background: url("../../images/caret.svg") white no-repeat calc(100% - 15px) !important;
+  -webkit-appearance: none;
+  border-radius: 50px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 12px;
+  height: 30px;
+}
+
+.formWrapper .filterBar .dropdownSelect select:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("../../images/check.svg") no-repeat right fixed;
+  top: 10px;
+  right: 5px;
+  position: absolute;
+  display: inline-block;
+}
+
+.formWrapper .filterBar .labelText {
+  font-weight: 400;
+  color: $colorDarkGrey;
+  /* font-size: 14px; */
+}
+
+.formWrapper .filterBar .rightButtonGroup span {
+  padding: 0 8px;
+}
+.formWrapper .filterBar .rightButtonGroup span > img {
+  height: 20px;
+  width: 25px;
+}
+
+/* .formWrapper .filterBar .dateIcon {
+  margin-left: 0.5em;
+}
+
+.formWrapper .filterBar .dateFilterButton {
+  padding: 5px 10px;
+  cursor: pointer;
+} */
+
+/* ============ */
+
+.formWrapper .filterBar .viewRadioButton input {
+  display: none;
+}
+
+.formWrapper .filterBar .viewRadioButton label:nth-child(1) {
+  display: inline-block;
+  padding: 5px 10px 5px 0px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.formWrapper .filterBar .viewRadioButton label:nth-child(2) {
+  display: inline-block;
+  padding: 5px 0px 5px 10px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.formWrapper .filterBar .viewRadioButton label span {
+  position: relative;
+  line-height: 22px;
+}
+
+.formWrapper .filterBar .viewRadioButton label span:before,
+.formWrapper .filterBar .viewRadioButton label span:after {
+  content: "";
+}
+
+.formWrapper .filterBar .viewRadioButton label span:before {
+  border: 1px solid $colorAqua;
+  border-radius: 2px;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  top: 3px;
+  position: relative;
+}
+
+.formWrapper .filterBar .viewRadioButton label span:after {
+  background: $colorAqua;
+  border-radius: 2px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 300ms;
+  opacity: 0;
+}
+
+.formWrapper .filterBar .viewRadioButton label input:checked + span:after {
+  opacity: 1;
+}
+
+.formWrapper .analyticsFilterBar {
+  width: calc(100% - 160px);
+}
+.formWrapper .analyticsFilterBar .timeLine {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+.formWrapper .analyticsFilterBar .settingsIcon {
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.formWrapper .analyticsFilterBar .settingsIcon > span > img {
+  width: 15px;
+  height: 15px;
+}
+.formWrapper .analyticsFilterBar .timeLine > span {
+  text-transform: uppercase;
+  color: $colorTextGrey1;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.formWrapper .analyticsFilterBar .timeLine > span:hover {
+  font-weight: 600;
+}
+.formWrapper .analyticsFilterBar .timeLine > span.active {
+  color: $colorAqua;
+  font-weight: 600;
+}
+.formWrapper .addGraphButton {
+  background: $colorAqua;
+  width: 160px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formWrapper .addGraphButton .text {
+  color: $colorWhite;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+}
+.formWrapper .addGraphButton > img {
+  width: 15px;
+  height: 15px;
+}
+.formWrapper .analyticsFilterBar .filterIcon {
+  padding: 4px 15px;
+  border-radius: 20px;
+  background: $colorAqua;
+}

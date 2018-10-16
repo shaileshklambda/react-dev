@@ -1,0 +1,97 @@
+@import "../../theme/colors.css";
+@import "../../theme/typography.css";
+@import "../../theme/fonts.css";
+
+.buildPanelGroup {
+  margin-bottom: 0;
+}
+
+.buildPanelGroup .panelMain {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.buildPanelGroup .panelMain .panelBody {
+  border-top: 0px !important;
+  padding: 0;
+  border-bottom: 1px solid $colorGrey2;
+}
+.buildPanelGroup .panelMain .panelHeading {
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid $colorGrey2;
+  padding: 15px;
+}
+
+.buildPanelGroup .panelMain .panelHeading .buildSummary {
+  color: $colorAqua;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.buildPanelGroup .panelMain .panelHeading .globalBuildStatus {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.buildPanelGroup .panelMain .panelHeading .panelTitle a,
+.buildPanelGroup .panelMain .panelHeading .panelTitle a:hover {
+  text-decoration: none;
+}
+.buildPanelGroup .panelMain .panelHeading .buildDataWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.buildPanelGroup .panelMain .panelHeading .buildDataWrapper .startedBy {
+  color: $colorTextGrey1;
+}
+.buildPanelGroup .panelMain .panelHeading .buildDataWrapper .time {
+  color: $colorTextGrey1;
+}
+
+/* .Buildview {
+  display: block;
+}
+.panelHeading {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff !important;
+}
+
+.BV_innerStyle {
+  padding: 10px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3c4144;
+}
+
+.BV_summaryStyle {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #0ebac5;
+}
+.BV_subHeading {
+  width: 52px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #9b9b9b;
+} */

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Analyticstab: default 1`] = `
+<div
+  className="formWrapper"
+>
+  <form
+    className="filterBar analyticsFilterBar form-inline"
+  >
+    <div
+      className="viewRadioButton"
+    >
+      <label>
+        <input
+          name="radio"
+          type="radio"
+        />
+        <span
+          className="labelText font12  fontLato"
+        >
+          Build View
+        </span>
+      </label>
+      <label>
+        <input
+          name="radio"
+          type="radio"
+        />
+        <span
+          className="labelText font12  fontLato"
+        >
+          Test View
+        </span>
+      </label>
+    </div>
+    <div
+      className="filterIcon"
+    >
+      <span>
+        <img
+          className=""
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "funnel.svg",
+            }
+          }
+        />
+      </span>
+    </div>
+    <div
+      className="dropdownSelect form-group"
+    >
+      <select
+        className="form-control"
+        id="formControlsSelect1"
+        placeholder="select"
+      >
+        <option
+          value="select"
+        >
+          All Users
+        </option>
+        <option
+          value="other"
+        >
+          ...
+        </option>
+        <option
+          value="other1"
+        >
+          ...
+        </option>
+        <option
+          value="other2"
+        >
+          ...
+        </option>
+        <option
+          value="other3"
+        >
+          ...
+        </option>
+        <option
+          value="other4"
+        >
+          ...
+        </option>
+        <option
+          value="other5"
+        >
+          ...
+        </option>
+      </select>
+    </div>
+    <div
+      className="timeLine font12"
+    >
+      <span>
+        Today
+      </span>
+      <span
+        className="active"
+      >
+        This Week 
+      </span>
+      <span>
+        This Month
+      </span>
+    </div>
+    <div
+      className="settingsIcon"
+    >
+      <span>
+        <img
+          className=""
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "settings-icon.svg",
+            }
+          }
+        />
+      </span>
+    </div>
+  </form>
+  <div
+    className="addGraphButton"
+  >
+    <img
+      className=""
+      src={
+        Object {
+          "ReactComponent": [Function],
+          "__esModule": true,
+          "default": "plus.svg",
+        }
+      }
+    />
+    <span
+      className="text font12"
+    >
+      Add graph
+    </span>
+  </div>
+</div>
+`;

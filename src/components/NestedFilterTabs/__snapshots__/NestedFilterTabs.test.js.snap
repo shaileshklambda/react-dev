@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nestedfiltertabs: default 1`] = `
+<div>
+  <div
+    className="net_tab activeNested"
+    id="controlled-tab-example"
+  >
+    <ul
+      className="nav nav-tabs"
+      role="tablist"
+    />
+    <div
+      className="tab-content"
+    />
+  </div>
+</div>
+`;

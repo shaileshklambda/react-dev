@@ -1,0 +1,225 @@
+@import "../../theme/colors.css";
+@import "../../theme/typography.css";
+@import "../../theme/fonts.css";
+
+.topRightNav {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 15px;
+  padding: 5px 0 0 0;
+}
+
+.topRightNav li a {
+  background-color: transparent !important;
+  padding: 0px 8px;
+}
+
+.topRightNav .iconGroup {
+  margin-left: 4em;
+}
+
+.topRightNav .iconWrapper img {
+  height: 20px;
+  width: 25px;
+}
+.topRightNav li a .dotIcon {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.topRightNav li a .status {
+  color: $colorTextGrey1;
+}
+.topRightNav li a .dotIcon.active {
+  background: $colorActive;
+}
+.topRightNav li a .dotIcon.inProgress {
+  background: $colorInProgress;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  flex-wrap: wrap;
+}
+
+.filterBar .dropdownSelect select {
+  display: inline-block;
+  border: 1px solid $colorSelectButtonBorder;
+  padding: 0px 40px 0 15px;
+  margin: 0 5px;
+  outline: none;
+  background: url("../../images/caret.svg") white no-repeat calc(100% - 15px) !important;
+  -webkit-appearance: none;
+  border-radius: 50px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 12px;
+  height: 30px;
+}
+
+.filterBar .dropdownSelect select:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("../../images/check.svg") no-repeat right fixed;
+  top: 10px;
+  right: 5px;
+  position: absolute;
+  display: inline-block;
+}
+
+.filterBar .labelText {
+  font-weight: 400;
+  color: $colorDarkGrey;
+  font-size: 14px;
+}
+
+.filterBar .rightButtonGroup span {
+  padding: 0 8px;
+}
+.filterBar .rightButtonGroup span > img {
+  height: 20px;
+  width: 25px;
+}
+
+.filterBar .dateIcon {
+  margin-left: 0.5em;
+}
+
+.filterBar .dateFilterButton {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* ============ */
+
+.filterBar .viewRadioButton input {
+  display: none;
+}
+
+.filterBar .viewRadioButton label:nth-child(1) {
+  display: inline-block;
+  padding: 5px 10px 5px 0px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.filterBar .viewRadioButton label:nth-child(2) {
+  display: inline-block;
+  padding: 5px 0px 5px 10px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.filterBar .viewRadioButton label span {
+  position: relative;
+  line-height: 22px;
+}
+
+.filterBar .viewRadioButton label span:before,
+.filterBar .viewRadioButton label span:after {
+  content: "";
+}
+
+.filterBar .viewRadioButton label span:before {
+  border: 1px solid $colorAqua;
+  border-radius: 2px;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  top: 3px;
+  position: relative;
+}
+
+.filterBar .viewRadioButton label span:after {
+  background: $colorAqua;
+  border-radius: 2px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 300ms;
+  opacity: 0;
+}
+
+.filterBar .viewRadioButton label input:checked + span:after {
+  opacity: 1;
+}
+
+.analyticsFilterBar {
+  padding-right: 0;
+}
+.analyticsFilterBar .timeLine > span {
+  padding: 0 50px;
+  text-transform: uppercase;
+  color: $colorTextGrey1;
+  font-weight: 500;
+}
+.analyticsFilterBar .addGraphButton {
+  background: $colorAqua;
+  padding: 21px 30px;
+  margin: -15px 0;
+}
+.analyticsFilterBar .addGraphButton .text {
+  color: $colorWhite;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.analyticsFilterBar .filterIcon {
+  padding: 7px 20px;
+  border-radius: 20px;
+  background: $colorAqua;
+}
+
+.tableMainContainer {
+  border: 0 !important;
+}
+.tableMainContainer .headerCell .text {
+  color: $colorDarkGrey;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tableMainContainer .headerCell .icon {
+  margin-left: 10px;
+}
+.tableMainContainer .headerCell .icon > img {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: -1px;
+}
+
+/* Table CSS */
+.tableMainContainer div[role="grid"] > div:nth-child(1) {
+  box-shadow: none;
+  border-bottom: 1px solid $colorGrey2;
+}
+
+.tableMainContainer div[role="columnheader"] {
+  border-right: 0px !important;
+  padding: 10px 25px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: left;
+}
+.tableMainContainer div[role="gridcell"] {
+  border-right: 0px !important;
+  font-size: 12px;
+  padding: 10px 25px !important;
+  text-align: left;
+}
+.tableMainContainer div[role="rowgroup"] {
+  border-bottom: solid 1px $colorGrey2;
+}

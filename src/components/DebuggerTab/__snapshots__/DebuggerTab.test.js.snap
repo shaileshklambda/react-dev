@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debuggertab: default 1`] = `
+<div
+  className="colAdjust col-md-12 col-xs-12"
+>
+  <div
+    className="Debuggertab"
+  >
+    <div
+      className="bug_list_tab activeParent"
+      id="uncontrolled-tab-example"
+    >
+      <ul
+        className="nav nav-tabs"
+        role="tablist"
+      />
+      <div
+        className="tab-content"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,8 @@
+module.exports = {
+  module: {
+    rules: [
+      test: /\.js$/,
+      use: 'babel-loader' // make sure you have babel-loader@8 installed and @babel/core@7
+    ]
+  }
+}

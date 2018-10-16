@@ -1,0 +1,44 @@
+.Nestedfiltertabs {
+  display: block;
+}
+.net_tab {
+  border-bottom: 0px;
+}
+.net_tab ul {
+  border: 0px;
+}
+.net_tab li {
+  font-family: "Lato", sans-serif;
+  color: #4a4a4a;
+  line-height: 1.67;
+  /* background: #f4f4f4; */
+  background: #fff;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  padding: 0px 9px;
+  border: 0px;
+}
+
+.net_tab li a {
+  font-weight: 500;
+  color: #4a4a4a;
+  padding: 10px 8px;
+  border: 0px !important;
+  font-size: 12px !important;
+}
+
+.net_tab > ul > li.active > a,
+.net_tab > ul > li.active > a:hover,
+.net_tab > ul > li > a:hover,
+.net_tab > ul > li.active > a:focus {
+  background-color: #0ebac5 !important;
+  color: #fff !important;
+  border-radius: 6px;
+}
+.net_tab li:nth-child(1) {
+  border-left: 0px;
+}
+.net_tab li:nth-child(5) {
+  border: 0px;
+}

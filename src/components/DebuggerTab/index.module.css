@@ -1,0 +1,71 @@
+.Debuggertab {
+  display: block;
+  background-color: #fff;
+  padding: 0px;
+}
+.bug_list_tab ul {
+  padding-left: 2px;
+  margin-bottom: 5px;
+}
+.bug_list_tab li {
+  display: inline-block;
+  background-color: #fafafa;
+  /* border-bottom: 1px solid #eaeaea; */
+  /* border-top: 1px solid #eaeaea; */
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.bug_list_tab li:nth-child(1) {
+  border-left: 1px solid #eaeaea;
+}
+.bug_list_tab li:nth-child(5) {
+  border-right: 1px solid #eaeaea;
+}
+.bug_list_tab li:nth-child(7) a {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+.bug_list_tab li:nth-child(8) {
+  border: 1px solid #0ebac5;
+  background-color: #0ebac5;
+}
+.bug_list_tab li:nth-child(8) a {
+  color: #fff;
+}
+.bug_list_tab li a {
+  font-weight: 900;
+  display: block;
+  text-align: center;
+  color: #9b9b9b;
+  padding: 11px 9px;
+  line-height: 0px;
+  letter-spacing: 0.8px;
+  font-size: 10px !important;
+  font-family: lato;
+}
+.bug_list_tab li a:hover,
+.bug_list_tab li a:focus,
+.bug_list_tab li.active a {
+  background-color: #fafafa;
+  color: #0ebac5 !important;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.bug_list_tab li:nth-child(8) a:hover,
+.bug_list_tab li:nth-child(8) a:focus,
+.bug_list_tab li:nth-child(8).active a {
+  color: #0ebac5;
+  background-color: #fff;
+}
+.mark_bulk_issues a {
+  line-height: 1.25;
+  letter-spacing: 1px;
+  text-align: center;
+  background: #0ebac5;
+  color: #fff;
+  border-radius: 0;
+}
+.colAdjust {
+  padding: 0px;
+}

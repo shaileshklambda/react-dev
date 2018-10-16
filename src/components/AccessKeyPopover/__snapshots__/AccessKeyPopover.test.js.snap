@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accesskeypopover: default 1`] = `
+<div>
+  <img
+    className=""
+    height={20}
+    onClick={[Function]}
+    src={
+      Object {
+        "ReactComponent": [Function],
+        "__esModule": true,
+        "default": "access-key.svg",
+      }
+    }
+    width={25}
+  />
+</div>
+`;

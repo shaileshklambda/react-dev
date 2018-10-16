@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter: default 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="rectangle"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <span
+              className="title"
+            >
+              N/A
+            </span>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-2"
+          >
+            <span
+              className="count"
+            >
+              0
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
